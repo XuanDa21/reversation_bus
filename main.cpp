@@ -6,6 +6,6 @@ int main(){
     std::cout << b <<std::endl;
     std::cout << "hello";
     std::cout << "hi";
-    std::cout << "new branch";
+    std::cout << "new branch 2";
     return 0;
 }
