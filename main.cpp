@@ -7,6 +7,5 @@ int main(){
     std::cout << "hello";
     std::cout << "hi";
     std::cout << "new branch 2";
-    std::cout << "new branch 2";
     return 0;
 }
