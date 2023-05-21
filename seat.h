@@ -1,32 +1,33 @@
-#ifndef seat_h
-#define seat_h
-class seat
-{
-private:
-    int index;
-    bool taken;
-public:
-    seat();
+#ifndef Seat_h
+#define Seat_h
+#include <vector>
+#include <string>
+#include "Ticket.h"
 
-    void setIndex(int i){
-        this -> index = i; 
-    }
-    int getIndex(){
-        return this -> index;
-    }
-    void setTaken(bool b){
-        this -> taken = b;
-    }
-    bool getTaken(){
-        return this -> taken;
-    }
+using namespace std;
+
+class Seat{
+
+    private:
+        int index;
+        bool take;
+        Ticket ticket;
+    public:
+        Seat();
+
+        Seat(int);
+
+        int getIndex();
+
+        Ticket getTicket();
+
+        void setTicket(Ticket);
+
+        bool getTake();
+
+        void setIndex(int);
+
+        void setTake(bool);
 };
 
-seat::seat()
-{
-    setIndex(0);
-    setTaken(false);
-}
 #endif
-
-
