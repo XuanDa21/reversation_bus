@@ -1,0 +1,1 @@
+The Reservation System is designed to manage reservations for a service or resource. Written in C++, the system follows a modular and extensible architecture, facilitating easy maintenance and future enhancements.
